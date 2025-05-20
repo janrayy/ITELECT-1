@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Event Registration</h1>
+        <p>Sto. Niño de Congreso Parish Community </p>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <form id="registrationForm">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" required />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" required />
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" required />
+
+                <label for="event">Select Event</label>
+                <select id="event" required>
+          <option value="">-- Choose an Event --</option>
+          <option value="sunday">Sunday Worship</option>
+          <option value="youth">Youth Night</option>
+          <option value="bible">Bible Study</option>
+        </select>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sto. Niño de Congreso Parish Community </p>
+    </footer>
+
+</body>
+
+</html>
